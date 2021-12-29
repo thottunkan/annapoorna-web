@@ -2,7 +2,10 @@
   "name": "purple_admin",
   "version": "3.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "server.js",
+  "engines": {
+    "node": "12.11.1"
+  },
   "dependencies": {
     "@mdi/font": "3.7.95",
     "bootstrap": "^5.1.3",
