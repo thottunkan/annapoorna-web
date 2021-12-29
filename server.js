@@ -7,7 +7,8 @@ app.use(express.static('partials'));
 app.use(express.static('index.html'));
 // on the request to root (localhost:3000/)
 app.get('/', function (req, res) {
-    res.sendFile(__dirname+'/partials/index.html');
+   // res.sendFile(__dirname+'/partials/index.html');
+   res.send("hello");
 });
 
 // On localhost:3000/welcome
